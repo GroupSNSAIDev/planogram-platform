@@ -1,0 +1,394 @@
+{
+ "GONDOLA_DS_12": {
+  "kind": "gondola",
+  "name": "Gondola run, double-sided, 12 bays",
+  "bay_width": 1000,
+  "bays_per_side": 12,
+  "sides": [
+   "A",
+   "B"
+  ],
+  "height": 1800,
+  "depth_per_side": 450,
+  "footprint": [
+   12000,
+   1000
+  ],
+  "temperature": "ambient",
+  "notch_pitch": 25,
+  "surfaces": [
+   {
+    "kind": "shelf",
+    "h": 150,
+    "base": true
+   },
+   {
+    "kind": "shelf",
+    "h": 500
+   },
+   {
+    "kind": "shelf",
+    "h": 850
+   },
+   {
+    "kind": "shelf",
+    "h": 1200
+   },
+   {
+    "kind": "shelf",
+    "h": 1550
+   }
+  ],
+  "max_load_g_per_shelf": 80000
+ },
+ "END_CAP": {
+  "kind": "end_cap",
+  "name": "End cap",
+  "bay_width": 1000,
+  "bays_per_side": 1,
+  "sides": [
+   "A"
+  ],
+  "height": 1800,
+  "depth_per_side": 500,
+  "footprint": [
+   1000,
+   600
+  ],
+  "temperature": "ambient",
+  "notch_pitch": 25,
+  "surfaces": [
+   {
+    "kind": "shelf",
+    "h": 150,
+    "base": true
+   },
+   {
+    "kind": "shelf",
+    "h": 550
+   },
+   {
+    "kind": "shelf",
+    "h": 950
+   },
+   {
+    "kind": "shelf",
+    "h": 1350
+   }
+  ],
+  "max_load_g_per_shelf": 60000
+ },
+ "WALL_BAY": {
+  "kind": "wall_bay",
+  "name": "Wall bay",
+  "bay_width": 1000,
+  "bays_per_side": 1,
+  "sides": [
+   "A"
+  ],
+  "height": 2100,
+  "depth_per_side": 500,
+  "footprint": [
+   1000,
+   500
+  ],
+  "temperature": "ambient",
+  "notch_pitch": 25,
+  "surfaces": [
+   {
+    "kind": "shelf",
+    "h": 150,
+    "base": true
+   },
+   {
+    "kind": "shelf",
+    "h": 500
+   },
+   {
+    "kind": "shelf",
+    "h": 850
+   },
+   {
+    "kind": "shelf",
+    "h": 1200
+   },
+   {
+    "kind": "shelf",
+    "h": 1550
+   },
+   {
+    "kind": "shelf",
+    "h": 1850
+   }
+  ],
+  "max_load_g_per_shelf": 100000
+ },
+ "MULTIDECK_2500": {
+  "kind": "multideck",
+  "name": "Open multideck chiller 2.5 m",
+  "bay_width": 2500,
+  "bays_per_side": 1,
+  "sides": [
+   "A"
+  ],
+  "height": 2000,
+  "depth_per_side": 650,
+  "footprint": [
+   2500,
+   900
+  ],
+  "temperature": "chilled",
+  "notch_pitch": 25,
+  "surfaces": [
+   {
+    "kind": "shelf",
+    "h": 300,
+    "base": true
+   },
+   {
+    "kind": "shelf",
+    "h": 650
+   },
+   {
+    "kind": "shelf",
+    "h": 1000
+   },
+   {
+    "kind": "shelf",
+    "h": 1300
+   },
+   {
+    "kind": "shelf",
+    "h": 1600
+   }
+  ],
+  "max_load_g_per_shelf": 60000
+ },
+ "GLASS_DOOR_FREEZER_4": {
+  "kind": "door_freezer",
+  "name": "Glass-door freezer, 4 doors",
+  "bay_width": 750,
+  "bays_per_side": 4,
+  "sides": [
+   "A"
+  ],
+  "height": 2100,
+  "depth_per_side": 700,
+  "footprint": [
+   3000,
+   900
+  ],
+  "temperature": "frozen",
+  "doors": true,
+  "door_swing_mm": 700,
+  "surfaces": [
+   {
+    "kind": "shelf",
+    "h": 200,
+    "base": true
+   },
+   {
+    "kind": "shelf",
+    "h": 550
+   },
+   {
+    "kind": "shelf",
+    "h": 900
+   },
+   {
+    "kind": "shelf",
+    "h": 1250
+   },
+   {
+    "kind": "shelf",
+    "h": 1600
+   }
+  ],
+  "max_load_g_per_shelf": 40000
+ },
+ "ISLAND_FREEZER_2500": {
+  "kind": "chest_freezer",
+  "name": "Island chest freezer 2.5 m",
+  "bay_width": 2500,
+  "bays_per_side": 1,
+  "sides": [
+   "TOP"
+  ],
+  "height": 850,
+  "depth_per_side": 1000,
+  "footprint": [
+   2500,
+   1000
+  ],
+  "temperature": "frozen",
+  "surfaces": [
+   {
+    "kind": "chest",
+    "h": 850,
+    "grid": [
+     10,
+     4
+    ],
+    "load_line_mm": 600
+   }
+  ]
+ },
+ "PRODUCE_BIN": {
+  "kind": "produce_bin",
+  "name": "Produce bin / table",
+  "bay_width": 1200,
+  "bays_per_side": 1,
+  "sides": [
+   "TOP"
+  ],
+  "height": 800,
+  "depth_per_side": 1200,
+  "footprint": [
+   1200,
+   1200
+  ],
+  "temperature": "ambient",
+  "surfaces": [
+   {
+    "kind": "bin",
+    "h": 800,
+    "capacity_l": 300
+   }
+  ]
+ },
+ "PALLET": {
+  "kind": "pallet",
+  "name": "Pallet display",
+  "bay_width": 1200,
+  "bays_per_side": 1,
+  "sides": [
+   "TOP"
+  ],
+  "height": 1400,
+  "depth_per_side": 1000,
+  "footprint": [
+   1200,
+   1000
+  ],
+  "temperature": "ambient",
+  "surfaces": [
+   {
+    "kind": "stack",
+    "h": 150,
+    "max_layers": 6
+   }
+  ]
+ },
+ "BAKERY_RACK": {
+  "kind": "bakery_rack",
+  "name": "Bakery rack",
+  "bay_width": 1000,
+  "bays_per_side": 1,
+  "sides": [
+   "A"
+  ],
+  "height": 1600,
+  "depth_per_side": 500,
+  "footprint": [
+   1000,
+   500
+  ],
+  "temperature": "ambient",
+  "surfaces": [
+   {
+    "kind": "shelf",
+    "h": 300,
+    "base": true
+   },
+   {
+    "kind": "shelf",
+    "h": 700
+   },
+   {
+    "kind": "shelf",
+    "h": 1100
+   }
+  ]
+ },
+ "CHECKOUT_COUNTER": {
+  "kind": "checkout",
+  "name": "Checkout counter with belt",
+  "bay_width": 1000,
+  "bays_per_side": 0,
+  "sides": [],
+  "height": 900,
+  "footprint": [
+   1000,
+   2800
+  ],
+  "temperature": "ambient",
+  "surfaces": []
+ },
+ "CHECKOUT_RACK": {
+  "kind": "checkout_rack",
+  "name": "Checkout impulse rack",
+  "bay_width": 300,
+  "bays_per_side": 1,
+  "sides": [
+   "A"
+  ],
+  "height": 1400,
+  "depth_per_side": 300,
+  "footprint": [
+   300,
+   1400
+  ],
+  "temperature": "ambient",
+  "surfaces": [
+   {
+    "kind": "shelf",
+    "h": 500
+   },
+   {
+    "kind": "shelf",
+    "h": 800
+   },
+   {
+    "kind": "shelf",
+    "h": 1100
+   },
+   {
+    "kind": "peg",
+    "h": 1300,
+    "grid": [
+     3,
+     2
+    ],
+    "pitch": 50
+   }
+  ]
+ },
+ "SELF_CHECKOUT": {
+  "kind": "self_checkout",
+  "name": "Self-checkout kiosk",
+  "bay_width": 800,
+  "bays_per_side": 0,
+  "sides": [],
+  "height": 1500,
+  "footprint": [
+   800,
+   800
+  ],
+  "temperature": "ambient",
+  "surfaces": []
+ },
+ "SERVICE_DESK": {
+  "kind": "service_desk",
+  "name": "Customer service desk",
+  "bay_width": 3000,
+  "bays_per_side": 0,
+  "sides": [],
+  "height": 1100,
+  "footprint": [
+   3000,
+   1000
+  ],
+  "temperature": "ambient",
+  "surfaces": []
+ }
+}

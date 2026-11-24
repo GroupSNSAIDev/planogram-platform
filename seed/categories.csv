@@ -1,0 +1,50 @@
+code,department,category,temperature
+FV,Fresh,Fruits & vegetables,ambient
+CUT,Fresh,Cut fruit & salads,chilled
+BAK,Fresh,Bakery,ambient
+DAI,Dairy & chilled,"Milk, curd, paneer, butter",chilled
+CHE,Dairy & chilled,Cheese & eggs,chilled
+RTE,Dairy & chilled,Ready meals & deli,chilled
+BEVC,Beverages,Chilled beverages,chilled
+FRZ,Frozen,Frozen veg & snacks,frozen
+ICE,Frozen,Ice cream & desserts,frozen
+ATA,Staples,Atta & flours,ambient
+RIC,Staples,Rice,ambient
+DAL,Staples,Dal & pulses,ambient
+DRY,Staples,Dry fruits,ambient
+OIL,Staples,Edible oils & ghee,ambient
+SAL,Staples,Salt & sugar,ambient
+MAS,Staples,Masala & spices,ambient
+BRK,Packaged food,Breakfast cereals,ambient
+SPR,Packaged food,Spreads & honey,ambient
+TEA,Beverages,Tea & coffee,ambient
+HDR,Beverages,Health drinks,ambient
+BIS,Packaged food,Biscuits & cookies,ambient
+SNK,Packaged food,Snacks & namkeen,ambient
+CHO,Packaged food,Chocolates & confectionery,ambient
+INS,Packaged food,Instant food & noodles,ambient
+SAU,Packaged food,"Sauces, pickles & ketchup",ambient
+RTC,Packaged food,Ready-to-cook,ambient
+BEVA,Beverages,Soft drinks & juices,ambient
+WAT,Beverages,Water & energy drinks,ambient
+BAB,Personal care,Baby care,ambient
+ORA,Personal care,Oral care,ambient
+HAI,Personal care,Hair care,ambient
+SKN,Personal care,Skin care,ambient
+DEO,Personal care,Deodorants & fragrance,ambient
+BAT,Personal care,Bath & soaps,ambient
+FEM,Personal care,Feminine hygiene,ambient
+MEN,Personal care,Men's grooming,ambient
+WEL,Personal care,Wellness,ambient
+DET,Home care,Detergents,ambient
+CLN,Home care,Cleaners & fresheners,ambient
+POO,Home care,Pooja needs,ambient
+KIT,General merchandise,Kitchen & household,ambient
+STA,General merchandise,Stationery,ambient
+PET,Home care,Pet care,ambient
+PAP,Home care,Paper & tissues,ambient
+BULK,Staples,Bulk bags (5–25 kg),ambient
+PLA,Home care,Plastics & storage,ambient
+IMP,Impulse,Checkout impulse,ambient
+PRO,Promotions,Promotions,ambient
+SEA,Promotions,Seasonal,ambient

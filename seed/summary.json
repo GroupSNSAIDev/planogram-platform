@@ -1,0 +1,23 @@
+{
+ "fixtures": 118,
+ "by_kind": {
+  "multideck": 12,
+  "door_freezer": 4,
+  "wall_bay": 32,
+  "gondola": 10,
+  "end_cap": 20,
+  "pallet": 8,
+  "chest_freezer": 4,
+  "produce_bin": 8,
+  "bakery_rack": 3,
+  "checkout": 7,
+  "checkout_rack": 7,
+  "self_checkout": 2,
+  "service_desk": 1
+ },
+ "shelf_bays": 330,
+ "linear_m_bays": 339.1,
+ "sections": 133,
+ "categories": 49,
+ "sample_products": 60
+}

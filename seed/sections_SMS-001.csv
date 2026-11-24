@@ -1,0 +1,134 @@
+code,fixture,side,bay_from,bay_to,category,category_name,department,assignment_lock
+G01-A-01,G01,A,1,6,ATA,Atta & flours,Staples,
+G01-A-07,G01,A,7,12,RIC,Rice,Staples,
+G01-B-01,G01,B,1,8,DAL,Dal & pulses,Staples,
+G01-B-09,G01,B,9,12,DRY,Dry fruits,Staples,
+G02-A-01,G02,A,1,8,OIL,Edible oils & ghee,Staples,
+G02-A-09,G02,A,9,12,SAL,Salt & sugar,Staples,
+G02-B-01,G02,B,1,12,MAS,Masala & spices,Staples,
+G03-A-01,G03,A,1,6,BRK,Breakfast cereals,Packaged food,
+G03-A-07,G03,A,7,12,SPR,Spreads & honey,Packaged food,
+G03-B-01,G03,B,1,8,TEA,Tea & coffee,Beverages,
+G03-B-09,G03,B,9,12,HDR,Health drinks,Beverages,
+G04-A-01,G04,A,1,12,BIS,Biscuits & cookies,Packaged food,
+G04-B-01,G04,B,1,12,SNK,Snacks & namkeen,Packaged food,
+G05-A-01,G05,A,1,6,CHO,Chocolates & confectionery,Packaged food,
+G05-A-07,G05,A,7,12,INS,Instant food & noodles,Packaged food,
+G05-B-01,G05,B,1,6,SAU,"Sauces, pickles & ketchup",Packaged food,
+G05-B-07,G05,B,7,12,RTC,Ready-to-cook,Packaged food,
+G06-A-01,G06,A,1,12,BEVA,Soft drinks & juices,Beverages,
+G06-B-01,G06,B,1,6,WAT,Water & energy drinks,Beverages,
+G06-B-07,G06,B,7,12,BAB,Baby care,Personal care,category
+G07-A-01,G07,A,1,6,ORA,Oral care,Personal care,
+G07-A-07,G07,A,7,12,HAI,Hair care,Personal care,
+G07-B-01,G07,B,1,8,SKN,Skin care,Personal care,
+G07-B-09,G07,B,9,12,DEO,Deodorants & fragrance,Personal care,
+G08-A-01,G08,A,1,8,BAT,Bath & soaps,Personal care,
+G08-A-09,G08,A,9,12,FEM,Feminine hygiene,Personal care,
+G08-B-01,G08,B,1,6,MEN,Men's grooming,Personal care,
+G08-B-07,G08,B,7,12,WEL,Wellness,Personal care,category
+G09-A-01,G09,A,1,12,DET,Detergents,Home care,
+G09-B-01,G09,B,1,8,CLN,Cleaners & fresheners,Home care,
+G09-B-09,G09,B,9,12,POO,Pooja needs,Home care,
+G10-A-01,G10,A,1,8,KIT,Kitchen & household,General merchandise,
+G10-A-09,G10,A,9,12,STA,Stationery,General merchandise,
+G10-B-01,G10,B,1,6,PET,Pet care,Home care,
+G10-B-07,G10,B,7,12,PAP,Paper & tissues,Home care,
+EC-G01-F-A-01,EC-G01-F,A,1,1,PRO,Promotions,Promotions,
+EC-G01-B-A-01,EC-G01-B,A,1,1,SEA,Seasonal,Promotions,
+EC-G02-F-A-01,EC-G02-F,A,1,1,PRO,Promotions,Promotions,
+EC-G02-B-A-01,EC-G02-B,A,1,1,SEA,Seasonal,Promotions,
+EC-G03-F-A-01,EC-G03-F,A,1,1,PRO,Promotions,Promotions,
+EC-G03-B-A-01,EC-G03-B,A,1,1,SEA,Seasonal,Promotions,
+EC-G04-F-A-01,EC-G04-F,A,1,1,PRO,Promotions,Promotions,
+EC-G04-B-A-01,EC-G04-B,A,1,1,SEA,Seasonal,Promotions,
+EC-G05-F-A-01,EC-G05-F,A,1,1,PRO,Promotions,Promotions,
+EC-G05-B-A-01,EC-G05-B,A,1,1,SEA,Seasonal,Promotions,
+EC-G06-F-A-01,EC-G06-F,A,1,1,PRO,Promotions,Promotions,
+EC-G06-B-A-01,EC-G06-B,A,1,1,SEA,Seasonal,Promotions,
+EC-G07-F-A-01,EC-G07-F,A,1,1,PRO,Promotions,Promotions,
+EC-G07-B-A-01,EC-G07-B,A,1,1,SEA,Seasonal,Promotions,
+EC-G08-F-A-01,EC-G08-F,A,1,1,PRO,Promotions,Promotions,
+EC-G08-B-A-01,EC-G08-B,A,1,1,SEA,Seasonal,Promotions,
+EC-G09-F-A-01,EC-G09-F,A,1,1,PRO,Promotions,Promotions,
+EC-G09-B-A-01,EC-G09-B,A,1,1,SEA,Seasonal,Promotions,
+EC-G10-F-A-01,EC-G10-F,A,1,1,PRO,Promotions,Promotions,
+EC-G10-B-A-01,EC-G10-B,A,1,1,SEA,Seasonal,Promotions,
+WL-01-A-01,WL-01,A,1,1,BULK,Bulk bags (5–25 kg),Staples,
+WL-02-A-01,WL-02,A,1,1,BULK,Bulk bags (5–25 kg),Staples,
+WL-03-A-01,WL-03,A,1,1,BULK,Bulk bags (5–25 kg),Staples,
+WL-04-A-01,WL-04,A,1,1,BULK,Bulk bags (5–25 kg),Staples,
+WL-05-A-01,WL-05,A,1,1,BULK,Bulk bags (5–25 kg),Staples,
+WL-06-A-01,WL-06,A,1,1,BULK,Bulk bags (5–25 kg),Staples,
+WL-07-A-01,WL-07,A,1,1,BULK,Bulk bags (5–25 kg),Staples,
+WL-08-A-01,WL-08,A,1,1,BULK,Bulk bags (5–25 kg),Staples,
+WL-09-A-01,WL-09,A,1,1,BULK,Bulk bags (5–25 kg),Staples,
+WL-10-A-01,WL-10,A,1,1,BULK,Bulk bags (5–25 kg),Staples,
+WL-11-A-01,WL-11,A,1,1,OIL,Edible oils & ghee,Staples,
+WL-12-A-01,WL-12,A,1,1,OIL,Edible oils & ghee,Staples,
+WL-13-A-01,WL-13,A,1,1,OIL,Edible oils & ghee,Staples,
+WL-14-A-01,WL-14,A,1,1,OIL,Edible oils & ghee,Staples,
+WL-15-A-01,WL-15,A,1,1,OIL,Edible oils & ghee,Staples,
+WL-16-A-01,WL-16,A,1,1,OIL,Edible oils & ghee,Staples,
+WR-01-A-01,WR-01,A,1,1,DET,Detergents,Home care,
+WR-02-A-01,WR-02,A,1,1,DET,Detergents,Home care,
+WR-03-A-01,WR-03,A,1,1,DET,Detergents,Home care,
+WR-04-A-01,WR-04,A,1,1,DET,Detergents,Home care,
+WR-05-A-01,WR-05,A,1,1,DET,Detergents,Home care,
+WR-06-A-01,WR-06,A,1,1,DET,Detergents,Home care,
+WR-07-A-01,WR-07,A,1,1,PLA,Plastics & storage,Home care,
+WR-08-A-01,WR-08,A,1,1,PLA,Plastics & storage,Home care,
+WR-09-A-01,WR-09,A,1,1,PLA,Plastics & storage,Home care,
+WR-10-A-01,WR-10,A,1,1,PLA,Plastics & storage,Home care,
+WR-11-A-01,WR-11,A,1,1,PLA,Plastics & storage,Home care,
+WR-12-A-01,WR-12,A,1,1,PLA,Plastics & storage,Home care,
+WR-13-A-01,WR-13,A,1,1,PAP,Paper & tissues,Home care,
+WR-14-A-01,WR-14,A,1,1,PAP,Paper & tissues,Home care,
+WR-15-A-01,WR-15,A,1,1,PAP,Paper & tissues,Home care,
+WR-16-A-01,WR-16,A,1,1,PAP,Paper & tissues,Home care,
+MD-01-A-01,MD-01,A,1,1,DAI,"Milk, curd, paneer, butter",Dairy & chilled,category
+MD-02-A-01,MD-02,A,1,1,DAI,"Milk, curd, paneer, butter",Dairy & chilled,category
+MD-03-A-01,MD-03,A,1,1,DAI,"Milk, curd, paneer, butter",Dairy & chilled,category
+MD-04-A-01,MD-04,A,1,1,DAI,"Milk, curd, paneer, butter",Dairy & chilled,category
+MD-05-A-01,MD-05,A,1,1,CHE,Cheese & eggs,Dairy & chilled,category
+MD-06-A-01,MD-06,A,1,1,BEVC,Chilled beverages,Beverages,
+MD-07-A-01,MD-07,A,1,1,BEVC,Chilled beverages,Beverages,
+MD-08-A-01,MD-08,A,1,1,BEVC,Chilled beverages,Beverages,
+MD-09-A-01,MD-09,A,1,1,BEVC,Chilled beverages,Beverages,
+FZ-01-A-01,FZ-01,A,1,4,FRZ,Frozen veg & snacks,Frozen,category
+FZ-02-A-01,FZ-02,A,1,4,FRZ,Frozen veg & snacks,Frozen,category
+FZ-03-A-01,FZ-03,A,1,4,FRZ,Frozen veg & snacks,Frozen,category
+FZ-04-A-01,FZ-04,A,1,4,FRZ,Frozen veg & snacks,Frozen,category
+MD-10-A-01,MD-10,A,1,1,RTE,Ready meals & deli,Dairy & chilled,
+MD-11-A-01,MD-11,A,1,1,RTE,Ready meals & deli,Dairy & chilled,
+IF-01-TOP-01,IF-01,TOP,1,1,ICE,Ice cream & desserts,Frozen,category
+IF-02-TOP-01,IF-02,TOP,1,1,ICE,Ice cream & desserts,Frozen,category
+IF-03-TOP-01,IF-03,TOP,1,1,FRZ,Frozen veg & snacks,Frozen,category
+IF-04-TOP-01,IF-04,TOP,1,1,FRZ,Frozen veg & snacks,Frozen,category
+MD-12-A-01,MD-12,A,1,1,CUT,Cut fruit & salads,Fresh,
+PB-01-TOP-01,PB-01,TOP,1,1,FV,Fruits & vegetables,Fresh,category
+PB-02-TOP-01,PB-02,TOP,1,1,FV,Fruits & vegetables,Fresh,category
+PB-03-TOP-01,PB-03,TOP,1,1,FV,Fruits & vegetables,Fresh,category
+PB-04-TOP-01,PB-04,TOP,1,1,FV,Fruits & vegetables,Fresh,category
+PB-05-TOP-01,PB-05,TOP,1,1,FV,Fruits & vegetables,Fresh,category
+PB-06-TOP-01,PB-06,TOP,1,1,FV,Fruits & vegetables,Fresh,category
+PB-07-TOP-01,PB-07,TOP,1,1,FV,Fruits & vegetables,Fresh,category
+PB-08-TOP-01,PB-08,TOP,1,1,FV,Fruits & vegetables,Fresh,category
+BK-01-A-01,BK-01,A,1,1,BAK,Bakery,Fresh,
+BK-02-A-01,BK-02,A,1,1,BAK,Bakery,Fresh,
+BK-03-A-01,BK-03,A,1,1,BAK,Bakery,Fresh,
+PL-01-TOP-01,PL-01,TOP,1,1,PRO,Promotions,Promotions,
+PL-02-TOP-01,PL-02,TOP,1,1,PRO,Promotions,Promotions,
+PL-03-TOP-01,PL-03,TOP,1,1,PRO,Promotions,Promotions,
+PL-04-TOP-01,PL-04,TOP,1,1,PRO,Promotions,Promotions,
+SP-01-TOP-01,SP-01,TOP,1,1,BULK,Bulk bags (5–25 kg),Staples,
+SP-02-TOP-01,SP-02,TOP,1,1,BULK,Bulk bags (5–25 kg),Staples,
+SP-03-TOP-01,SP-03,TOP,1,1,BULK,Bulk bags (5–25 kg),Staples,
+SP-04-TOP-01,SP-04,TOP,1,1,BULK,Bulk bags (5–25 kg),Staples,
+CR-01-A-01,CR-01,A,1,1,IMP,Checkout impulse,Impulse,category
+CR-02-A-01,CR-02,A,1,1,IMP,Checkout impulse,Impulse,category
+CR-03-A-01,CR-03,A,1,1,IMP,Checkout impulse,Impulse,category
+CR-04-A-01,CR-04,A,1,1,IMP,Checkout impulse,Impulse,category
+CR-05-A-01,CR-05,A,1,1,IMP,Checkout impulse,Impulse,category
+CR-06-A-01,CR-06,A,1,1,IMP,Checkout impulse,Impulse,category
+CR-07-A-01,CR-07,A,1,1,IMP,Checkout impulse,Impulse,category

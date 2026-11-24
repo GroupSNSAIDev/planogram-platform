@@ -1,0 +1,6 @@
+# Developer tools: browser end-to-end test, screenshots (tools/e2e_demo.py, tools/shot.py) and PDF page rendering.
+# Install:  python -m pip install -r requirements.txt -r requirements-dev.txt
+#           python -m playwright install chromium
+-r requirements.txt
+playwright==1.65.2
+pymupdf==2.1

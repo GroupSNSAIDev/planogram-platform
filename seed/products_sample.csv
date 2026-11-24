@@ -1,0 +1,61 @@
+sku,gtin,name,brand,category,category_name,department,width_mm,height_mm,depth_mm,weight_g,case_pack,temperature,dims_source,status,image_front,age_restricted,hazardous
+SKU00001,2000000000015,Whole Wheat Atta 5 kg (sample),Demo Mills,ATA,Atta & flours,Staples,300,440,110,5050,12,ambient,estimated,active,2000000000015_front.png,no,no
+SKU00002,2000000000022,Multigrain Atta 1 kg (sample),Demo Mills,ATA,Atta & flours,Staples,150,230,70,1020,12,ambient,estimated,active,2000000000022_front.png,no,no
+SKU00003,2000000000039,Basmati Rice 1 kg (sample),Demo Grains,RIC,Rice,Staples,160,250,80,1015,12,ambient,estimated,active,2000000000039_front.png,no,no
+SKU00004,2000000000046,Sona Masoori Rice 5 kg (sample),Demo Grains,RIC,Rice,Staples,300,450,120,5040,12,ambient,estimated,active,2000000000046_front.png,no,no
+SKU00005,2000000000053,Toor Dal 1 kg (sample),Demo Pulses,DAL,Dal & pulses,Staples,170,260,70,1010,12,ambient,estimated,active,2000000000053_front.png,no,no
+SKU00006,2000000000060,Moong Dal 500 g (sample),Demo Pulses,DAL,Dal & pulses,Staples,140,200,60,505,12,ambient,estimated,active,2000000000060_front.png,no,no
+SKU00007,2000000000077,Sunflower Oil 1 L pouch (sample),Demo Oils,OIL,Edible oils & ghee,Staples,160,230,70,930,12,ambient,estimated,active,2000000000077_front.png,no,no
+SKU00008,2000000000084,Mustard Oil 1 L bottle (sample),Demo Oils,OIL,Edible oils & ghee,Staples,85,280,85,990,12,ambient,estimated,active,2000000000084_front.png,no,no
+SKU00009,2000000000091,Cow Ghee 500 ml jar (sample),Demo Dairy,OIL,Edible oils & ghee,Staples,95,120,95,480,12,ambient,estimated,active,2000000000091_front.png,no,no
+SKU00010,2000000000107,Iodised Salt 1 kg (sample),Demo Basics,SAL,Salt & sugar,Staples,110,190,60,1005,12,ambient,estimated,active,2000000000107_front.png,no,no
+SKU00011,2000000000114,Turmeric Powder 200 g (sample),Demo Spice,MAS,Masala & spices,Staples,90,150,50,205,12,ambient,estimated,active,2000000000114_front.png,no,no
+SKU00012,2000000000121,Garam Masala 100 g (sample),Demo Spice,MAS,Masala & spices,Staples,75,120,40,105,12,ambient,estimated,active,2000000000121_front.png,no,no
+SKU00013,2000000000138,Corn Flakes 875 g (sample),Demo Foods,BRK,Breakfast cereals,Packaged food,200,300,75,900,12,ambient,estimated,active,2000000000138_front.png,no,no
+SKU00014,2000000000145,Rolled Oats 1 kg (sample),Demo Foods,BRK,Breakfast cereals,Packaged food,190,290,70,1050,12,ambient,estimated,active,2000000000145_front.png,no,no
+SKU00015,2000000000152,Mixed Fruit Jam 500 g (sample),Demo Foods,SPR,Spreads & honey,Packaged food,80,110,80,560,12,ambient,estimated,active,2000000000152_front.png,no,no
+SKU00016,2000000000169,Peanut Butter 340 g (sample),Demo Foods,SPR,Spreads & honey,Packaged food,85,115,85,370,12,ambient,estimated,active,2000000000169_front.png,no,no
+SKU00017,2000000000176,Assam Tea 500 g (sample),Demo Leaf,TEA,Tea & coffee,Beverages,120,190,70,510,12,ambient,estimated,active,2000000000176_front.png,no,no
+SKU00018,2000000000183,Instant Coffee 100 g jar (sample),Demo Brew,TEA,Tea & coffee,Beverages,75,120,75,240,12,ambient,estimated,active,2000000000183_front.png,no,no
+SKU00019,2000000000190,Malt Health Drink 500 g (sample),Demo Health,HDR,Health drinks,Beverages,110,170,110,560,12,ambient,estimated,active,2000000000190_front.png,no,no
+SKU00020,2000000000206,Digestive Biscuits 400 g (sample),Demo Bakers,BIS,Biscuits & cookies,Packaged food,120,180,60,410,12,ambient,estimated,active,2000000000206_front.png,no,no
+SKU00021,2000000000213,Glucose Biscuits 800 g (sample),Demo Bakers,BIS,Biscuits & cookies,Packaged food,210,140,70,820,12,ambient,estimated,active,2000000000213_front.png,no,no
+SKU00022,2000000000220,Cream Biscuits 120 g (sample),Demo Bakers,BIS,Biscuits & cookies,Packaged food,140,60,45,125,12,ambient,estimated,active,2000000000220_front.png,no,no
+SKU00023,2000000000237,Salted Chips 150 g (sample),Demo Snacks,SNK,Snacks & namkeen,Packaged food,150,230,80,160,12,ambient,estimated,active,2000000000237_front.png,no,no
+SKU00024,2000000000244,Masala Chips 150 g (sample),Demo Snacks,SNK,Snacks & namkeen,Packaged food,150,230,80,160,12,ambient,estimated,active,2000000000244_front.png,no,no
+SKU00025,2000000000251,Mixture Namkeen 400 g (sample),Demo Snacks,SNK,Snacks & namkeen,Packaged food,170,260,70,410,12,ambient,estimated,active,2000000000251_front.png,no,no
+SKU00026,2000000000268,Milk Chocolate 40 g (sample),Demo Choco,CHO,Chocolates & confectionery,Packaged food,75,140,12,45,12,ambient,estimated,active,2000000000268_front.png,no,no
+SKU00027,2000000000275,Fruit Toffees 200 g (sample),Demo Choco,CHO,Chocolates & confectionery,Packaged food,130,180,40,210,12,ambient,estimated,active,2000000000275_front.png,no,no
+SKU00028,2000000000282,Instant Noodles 4-pack (sample),Demo Foods,INS,Instant food & noodles,Packaged food,180,130,80,290,12,ambient,estimated,active,2000000000282_front.png,no,no
+SKU00029,2000000000299,Tomato Ketchup 1 kg (sample),Demo Foods,SAU,"Sauces, pickles & ketchup",Packaged food,95,230,65,1080,12,ambient,estimated,active,2000000000299_front.png,no,no
+SKU00030,2000000000305,Mango Pickle 400 g (sample),Demo Foods,SAU,"Sauces, pickles & ketchup",Packaged food,90,130,90,460,12,ambient,estimated,active,2000000000305_front.png,no,no
+SKU00031,2000000000312,Cola 750 ml (sample),Demo Drinks,BEVA,Soft drinks & juices,Beverages,80,300,80,790,12,ambient,estimated,active,2000000000312_front.png,no,no
+SKU00032,2000000000329,Mango Drink 1 L (sample),Demo Drinks,BEVA,Soft drinks & juices,Beverages,95,240,65,1060,12,ambient,estimated,active,2000000000329_front.png,no,no
+SKU00033,2000000000336,Packaged Water 1 L (sample),Demo Springs,WAT,Water & energy drinks,Beverages,75,280,75,1030,12,ambient,estimated,active,2000000000336_front.png,no,no
+SKU00034,2000000000343,Energy Drink 250 ml can (sample),Demo Drinks,WAT,Water & energy drinks,Beverages,66,122,66,270,12,ambient,estimated,active,2000000000343_front.png,no,no
+SKU00035,2000000000350,Baby Diapers M 50 (sample),Demo Baby,BAB,Baby care,Personal care,230,300,140,1600,12,ambient,estimated,active,2000000000350_front.png,no,no
+SKU00036,2000000000367,Toothpaste 150 g (sample),Demo Care,ORA,Oral care,Personal care,200,50,45,175,12,ambient,estimated,active,2000000000367_front.png,no,no
+SKU00037,2000000000374,Toothbrush soft (sample),Demo Care,ORA,Oral care,Personal care,30,230,25,30,12,ambient,estimated,active,2000000000374_front.png,no,no
+SKU00038,2000000000381,Shampoo 340 ml (sample),Demo Care,HAI,Hair care,Personal care,80,210,50,380,12,ambient,estimated,active,2000000000381_front.png,no,no
+SKU00039,2000000000398,Hair Oil 300 ml (sample),Demo Care,HAI,Hair care,Personal care,75,190,45,330,12,ambient,estimated,active,2000000000398_front.png,no,no
+SKU00040,2000000000404,Moisturising Lotion 400 ml (sample),Demo Care,SKN,Skin care,Personal care,85,220,50,450,12,ambient,estimated,active,2000000000404_front.png,no,no
+SKU00041,2000000000411,Deodorant 150 ml (sample),Demo Care,DEO,Deodorants & fragrance,Personal care,50,170,50,140,12,ambient,estimated,active,2000000000411_front.png,no,no
+SKU00042,2000000000428,Bathing Soap 4 × 100 g (sample),Demo Care,BAT,Bath & soaps,Personal care,230,70,60,420,12,ambient,estimated,active,2000000000428_front.png,no,no
+SKU00043,2000000000435,Shaving Foam 200 g (sample),Demo Care,MEN,Men's grooming,Personal care,60,190,60,230,12,ambient,estimated,active,2000000000435_front.png,no,no
+SKU00044,2000000000442,Detergent Powder 1 kg (sample),Demo Home,DET,Detergents,Home care,190,260,80,1030,12,ambient,estimated,active,2000000000442_front.png,no,no
+SKU00045,2000000000459,Liquid Detergent 2 L (sample),Demo Home,DET,Detergents,Home care,150,280,90,2150,12,ambient,estimated,active,2000000000459_front.png,no,no
+SKU00046,2000000000466,Floor Cleaner 975 ml (sample),Demo Home,CLN,Cleaners & fresheners,Home care,110,250,70,1050,12,ambient,estimated,active,2000000000466_front.png,no,no
+SKU00047,2000000000473,Dishwash Bar 3-pack (sample),Demo Home,CLN,Cleaners & fresheners,Home care,180,90,60,610,12,ambient,estimated,active,2000000000473_front.png,no,no
+SKU00048,2000000000480,Agarbatti 100 sticks (sample),Demo Pooja,POO,Pooja needs,Home care,60,260,40,140,12,ambient,estimated,active,2000000000480_front.png,no,no
+SKU00049,2000000000497,Aluminium Foil 9 m (sample),Demo Home,KIT,Kitchen & household,General merchandise,310,50,50,260,12,ambient,estimated,active,2000000000497_front.png,no,no
+SKU00050,2000000000503,Notebook A4 pack of 3 (sample),Demo Paper,STA,Stationery,General merchandise,210,297,25,650,12,ambient,estimated,active,2000000000503_front.png,no,no
+SKU00051,2000000000510,Dog Food 1.2 kg (sample),Demo Pet,PET,Pet care,Home care,200,300,80,1230,12,ambient,estimated,active,2000000000510_front.png,no,no
+SKU00052,2000000000527,Tissue Box 100 pulls (sample),Demo Paper,PAP,Paper & tissues,Home care,230,90,115,180,12,ambient,estimated,active,2000000000527_front.png,no,no
+SKU00053,2000000000534,Toned Milk 1 L (sample),Demo Dairy,DAI,"Milk, curd, paneer, butter",Dairy & chilled,95,240,95,1040,12,chilled,estimated,active,2000000000534_front.png,no,no
+SKU00054,2000000000541,Curd 400 g cup (sample),Demo Dairy,DAI,"Milk, curd, paneer, butter",Dairy & chilled,95,75,95,420,12,chilled,estimated,active,2000000000541_front.png,no,no
+SKU00055,2000000000558,Paneer 200 g (sample),Demo Dairy,DAI,"Milk, curd, paneer, butter",Dairy & chilled,130,30,90,210,12,chilled,estimated,active,2000000000558_front.png,no,no
+SKU00056,2000000000565,Cheese Slices 200 g (sample),Demo Dairy,CHE,Cheese & eggs,Dairy & chilled,100,25,100,210,12,chilled,estimated,active,2000000000565_front.png,no,no
+SKU00057,2000000000572,Cold Coffee 200 ml (sample),Demo Dairy,BEVC,Chilled beverages,Beverages,55,140,55,220,12,chilled,estimated,active,2000000000572_front.png,no,no
+SKU00058,2000000000589,Frozen Green Peas 500 g (sample),Demo Frozen,FRZ,Frozen veg & snacks,Frozen,180,250,50,510,12,frozen,estimated,active,2000000000589_front.png,no,no
+SKU00059,2000000000596,Vanilla Ice Cream 1 L tub (sample),Demo Frozen,ICE,Ice cream & desserts,Frozen,150,90,150,560,12,frozen,estimated,active,2000000000596_front.png,no,no
+SKU00060,2000000000602,Chewing Gum 10-pack (sample),Demo Choco,IMP,Checkout impulse,Impulse,75,25,20,30,12,ambient,estimated,active,2000000000602_front.png,no,no

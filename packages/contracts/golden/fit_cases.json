@@ -1,0 +1,130 @@
+{
+  "_about": "Golden cases for shelf geometry. Run by services/api/tests/test_golden.py (Python) and apps/web/src/geometry/geometry.test.ts (TypeScript). Expected values were worked out by hand from spec 8.4 with gap 2 mm, finger 25 mm, back clearance 10 mm, door clearance 20 mm, shelf thickness 15 mm, top headroom 250 mm.",
+  "products": {
+    "oats": {"id": "oats", "name": "Oats 1 kg", "width_mm": 190, "height_mm": 280, "depth_mm": 70, "weight_g": 1050, "temperature": "ambient", "can_stack": false, "max_stack": 1},
+    "instant": {"id": "instant", "name": "Instant 500 g", "width_mm": 170, "height_mm": 250, "depth_mm": 60, "weight_g": 540, "temperature": "ambient", "can_stack": false, "max_stack": 1},
+    "tall": {"id": "tall", "name": "Family pack", "width_mm": 240, "height_mm": 320, "depth_mm": 75, "weight_g": 1250, "temperature": "ambient", "can_stack": false, "max_stack": 1},
+    "milk": {"id": "milk", "name": "Toned Milk 1 L", "width_mm": 95, "height_mm": 240, "depth_mm": 95, "weight_g": 1040, "temperature": "chilled", "can_stack": false, "max_stack": 1},
+    "bars": {"id": "bars", "name": "Granola bars", "width_mm": 160, "height_mm": 120, "depth_mm": 45, "weight_g": 180, "temperature": "ambient", "can_stack": true, "max_stack": 2}
+  },
+  "surface_cases": [
+    {
+      "name": "two products fit",
+      "surface": {"id": "s1", "width_mm": 1000, "depth_mm": 450, "max_load_g": 80000},
+      "clear_height_mm": 335, "has_door": false, "fixture_temperature": "ambient",
+      "positions": [
+        {"id": "a", "product_id": "oats", "seq": 0, "facings_wide": 4, "facings_high": 1, "facings_deep": 6},
+        {"id": "b", "product_id": "instant", "seq": 1, "facings_wide": 1, "facings_high": 1, "facings_deep": 7}
+      ],
+      "expected": {"x_mm": {"a": 0, "b": 762}, "used_width_mm": 932, "issues": []}
+    },
+    {
+      "name": "width overflow",
+      "surface": {"id": "s1", "width_mm": 1000, "depth_mm": 450, "max_load_g": 80000},
+      "clear_height_mm": 335, "has_door": false, "fixture_temperature": "ambient",
+      "positions": [
+        {"id": "a", "product_id": "oats", "seq": 0, "facings_wide": 4, "facings_high": 1, "facings_deep": 6},
+        {"id": "b", "product_id": "instant", "seq": 1, "facings_wide": 2, "facings_high": 1, "facings_deep": 7}
+      ],
+      "expected": {"x_mm": {"a": 0, "b": 762}, "used_width_mm": 1102, "issues": ["FIT_W:s1"]}
+    },
+    {
+      "name": "order comes from seq, not input order",
+      "surface": {"id": "s1", "width_mm": 1000, "depth_mm": 450, "max_load_g": 80000},
+      "clear_height_mm": 335, "has_door": false, "fixture_temperature": "ambient",
+      "positions": [
+        {"id": "a", "product_id": "oats", "seq": 1, "facings_wide": 1, "facings_high": 1, "facings_deep": 6},
+        {"id": "b", "product_id": "instant", "seq": 0, "facings_wide": 2, "facings_high": 1, "facings_deep": 7}
+      ],
+      "expected": {"x_mm": {"b": 0, "a": 342}, "used_width_mm": 532, "issues": []}
+    },
+    {
+      "name": "too tall for the shelf gap",
+      "surface": {"id": "s1", "width_mm": 1000, "depth_mm": 450, "max_load_g": 80000},
+      "clear_height_mm": 335, "has_door": false, "fixture_temperature": "ambient",
+      "positions": [
+        {"id": "t", "product_id": "tall", "seq": 0, "facings_wide": 2, "facings_high": 1, "facings_deep": 5}
+      ],
+      "expected": {"x_mm": {"t": 0}, "used_width_mm": 480, "issues": ["FIT_H:t"]}
+    },
+    {
+      "name": "too deep",
+      "surface": {"id": "s1", "width_mm": 1000, "depth_mm": 450, "max_load_g": 80000},
+      "clear_height_mm": 335, "has_door": false, "fixture_temperature": "ambient",
+      "positions": [
+        {"id": "a", "product_id": "oats", "seq": 0, "facings_wide": 1, "facings_high": 1, "facings_deep": 7}
+      ],
+      "expected": {"x_mm": {"a": 0}, "used_width_mm": 190, "issues": ["FIT_D:a"]}
+    },
+    {
+      "name": "door takes 20 mm of depth",
+      "surface": {"id": "s1", "width_mm": 750, "depth_mm": 700, "max_load_g": 40000},
+      "clear_height_mm": 335, "has_door": true, "fixture_temperature": "ambient",
+      "positions": [
+        {"id": "ok", "product_id": "instant", "seq": 0, "facings_wide": 1, "facings_high": 1, "facings_deep": 11},
+        {"id": "deep", "product_id": "oats", "seq": 1, "facings_wide": 1, "facings_high": 1, "facings_deep": 10}
+      ],
+      "expected": {"x_mm": {"ok": 0, "deep": 172}, "used_width_mm": 362, "issues": ["FIT_D:deep"]}
+    },
+    {
+      "name": "chilled product on an ambient fixture",
+      "surface": {"id": "s1", "width_mm": 1000, "depth_mm": 450, "max_load_g": 80000},
+      "clear_height_mm": 335, "has_door": false, "fixture_temperature": "ambient",
+      "positions": [
+        {"id": "m", "product_id": "milk", "seq": 0, "facings_wide": 2, "facings_high": 1, "facings_deep": 4}
+      ],
+      "expected": {"x_mm": {"m": 0}, "used_width_mm": 190, "issues": ["TEMP:m"]}
+    },
+    {
+      "name": "stacking needs can_stack",
+      "surface": {"id": "s1", "width_mm": 1000, "depth_mm": 450, "max_load_g": 80000},
+      "clear_height_mm": 335, "has_door": false, "fixture_temperature": "ambient",
+      "positions": [
+        {"id": "o", "product_id": "oats", "seq": 0, "facings_wide": 1, "facings_high": 2, "facings_deep": 1},
+        {"id": "s", "product_id": "bars", "seq": 1, "facings_wide": 1, "facings_high": 2, "facings_deep": 1},
+        {"id": "x", "product_id": "bars", "seq": 2, "facings_wide": 1, "facings_high": 3, "facings_deep": 1}
+      ],
+      "expected": {"x_mm": {"o": 0, "s": 192, "x": 354}, "used_width_mm": 514,
+                   "issues": ["FIT_H:o", "FIT_H:x", "STACK:o", "STACK:x"]}
+    },
+    {
+      "name": "shelf load limit",
+      "surface": {"id": "s1", "width_mm": 1000, "depth_mm": 450, "max_load_g": 5000},
+      "clear_height_mm": 335, "has_door": false, "fixture_temperature": "ambient",
+      "positions": [
+        {"id": "a", "product_id": "oats", "seq": 0, "facings_wide": 2, "facings_high": 1, "facings_deep": 4}
+      ],
+      "expected": {"x_mm": {"a": 0}, "used_width_mm": 380, "issues": ["LOAD:s1"]}
+    },
+    {
+      "name": "locked anchor would be pushed",
+      "surface": {"id": "s1", "width_mm": 1000, "depth_mm": 450, "max_load_g": 80000},
+      "clear_height_mm": 335, "has_door": false, "fixture_temperature": "ambient",
+      "positions": [
+        {"id": "a", "product_id": "oats", "seq": 0, "facings_wide": 3, "facings_high": 1, "facings_deep": 6},
+        {"id": "b", "product_id": "instant", "seq": 1, "facings_wide": 1, "facings_high": 1, "facings_deep": 7, "locked": true, "locked_x_mm": 500}
+      ],
+      "expected": {"x_mm": {"a": 0, "b": 500}, "used_width_mm": 670, "issues": ["ANCHOR:b"]}
+    },
+    {
+      "name": "locked anchor keeps its x and others flow around it",
+      "surface": {"id": "s1", "width_mm": 1000, "depth_mm": 450, "max_load_g": 80000},
+      "clear_height_mm": 335, "has_door": false, "fixture_temperature": "ambient",
+      "positions": [
+        {"id": "a", "product_id": "oats", "seq": 0, "facings_wide": 3, "facings_high": 1, "facings_deep": 6},
+        {"id": "b", "product_id": "instant", "seq": 1, "facings_wide": 1, "facings_high": 1, "facings_deep": 7, "locked": true, "locked_x_mm": 600},
+        {"id": "c", "product_id": "instant", "seq": 2, "facings_wide": 1, "facings_high": 1, "facings_deep": 7}
+      ],
+      "expected": {"x_mm": {"a": 0, "b": 600, "c": 772}, "used_width_mm": 942, "issues": []}
+    }
+  ],
+  "clear_height_cases": [
+    {"name": "gondola bay", "heights": [150, 500, 850, 1200, 1550], "bay_height_mm": 1800, "expected": [335, 335, 335, 335, 485]},
+    {"name": "unsorted input keeps input order", "heights": [500, 150], "bay_height_mm": 1000, "expected": [735, 335]}
+  ],
+  "eye_band_cases": [
+    {"height_mm": 150, "band": "floor"}, {"height_mm": 400, "band": "knee"}, {"height_mm": 799, "band": "knee"},
+    {"height_mm": 800, "band": "waist"}, {"height_mm": 1200, "band": "eye"}, {"height_mm": 1600, "band": "eye"},
+    {"height_mm": 1601, "band": "top"}
+  ]
+}

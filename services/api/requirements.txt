@@ -1,0 +1,12 @@
+# API runtime and tests. Exact versions, so any commit can be rebuilt as it was (and rolled back safely).
+# Install:  python -m pip install -r requirements.txt
+fastapi[standard]==0.165.0
+uvicorn==0.54.0
+sqlalchemy==2.1.9
+pydantic==2.14.4
+python-multipart==0.0.34
+openpyxl==3.1.5
+reportlab==5.1.0
+pillow==13.0.0
+pytest==9.2.0
+httpx==0.28.1

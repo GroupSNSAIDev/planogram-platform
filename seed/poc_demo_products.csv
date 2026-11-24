@@ -1,0 +1,35 @@
+sku,gtin,name,brand,category,width_mm,height_mm,depth_mm,weight_g,case_pack,temperature,dims_source,dims_verified,safety_reviewed,has_image,can_stack,max_stack,colour,price,units_per_day,margin_rate
+BRK00001,2100000000012,Sunmill Rolled Oats 1 kg,Sunmill,BRK,190,280,70,1050,12,ambient,measured,yes,yes,yes,no,1,#F59E0B,199,6.0,0.2
+BRK00002,2100000000029,Sunmill Instant Oats 500 g,Sunmill,BRK,170,250,60,540,12,ambient,measured,yes,yes,yes,no,1,#F59E0B,129,4.5,0.2
+BRK00003,2100000000036,Sunmill Masala Oats 400 g,Sunmill,BRK,160,240,60,430,12,ambient,measured,yes,yes,yes,no,1,#F59E0B,149,3.8,0.2
+BRK00004,2100000000043,Sunmill Oats Jar 1 kg,Sunmill,BRK,120,220,120,1080,12,ambient,measured,yes,yes,yes,no,1,#F59E0B,249,1.5,0.2
+BRK00005,2100000000050,Sunmill Oats Jumbo Tub 2 kg,Sunmill,BRK,230,470,150,2100,12,ambient,measured,yes,yes,yes,no,1,#F59E0B,399,0.8,0.2
+BRK00006,2100000000067,Sunmill Steel-cut Oats 500 g,Sunmill,BRK,150,230,60,520,12,ambient,measured,yes,yes,yes,no,1,#F59E0B,169,1.2,0.2
+BRK00007,2100000000074,Kirra Corn Flakes 875 g,Kirra,BRK,220,285,65,900,12,ambient,measured,yes,yes,yes,no,1,#EAB308,289,5.5,0.2
+BRK00008,2100000000081,Kirra Corn Flakes 475 g,Kirra,BRK,180,250,60,490,12,ambient,measured,yes,yes,yes,no,1,#EAB308,169,4.0,0.2
+BRK00009,2100000000098,Kirra Choco Flakes 375 g,Kirra,BRK,190,260,50,390,12,ambient,measured,yes,yes,yes,no,1,#EAB308,179,4.2,0.2
+BRK00010,2100000000104,Kirra Honey Loops 300 g,Kirra,BRK,170,240,55,315,12,ambient,measured,yes,yes,yes,no,1,#EAB308,159,2.6,0.2
+BRK00011,2100000000111,Kirra Corn Flakes Family 1.2 kg,Kirra,BRK,240,340,75,1250,12,ambient,measured,yes,yes,yes,no,1,#EAB308,379,1.4,0.2
+BRK00012,2100000000128,Kirra Strawberry Flakes 300 g,Kirra,BRK,170,240,55,310,12,ambient,measured,yes,yes,yes,no,1,#EAB308,169,1.8,0.2
+BRK00013,2100000000135,Ostra Fruit Muesli 750 g,Ostra,BRK,180,270,60,770,12,ambient,estimated,no,yes,yes,no,1,#9333EA,379,2.4,0.2
+BRK00014,2100000000142,Ostra Nut Muesli 500 g,Ostra,BRK,160,240,55,510,12,ambient,measured,yes,yes,no,no,1,#9333EA,329,1.9,0.2
+BRK00015,2100000000159,Ostra Crunchy Muesli 500 g,Ostra,BRK,160,240,55,520,12,ambient,measured,yes,yes,yes,no,1,#9333EA,299,1.6,0.2
+BRK00016,2100000000166,Ostra No-Sugar Muesli 400 g,Ostra,BRK,150,230,55,410,12,ambient,measured,yes,yes,yes,no,1,#9333EA,349,1.1,0.2
+BRK00017,2100000000173,Pellio Granola 450 g,Pellio,BRK,150,220,80,460,12,ambient,measured,yes,yes,yes,no,1,#16A34A,349,1.7,0.2
+BRK00018,2100000000180,Pellio Choco Granola 450 g,Pellio,BRK,150,220,80,460,12,ambient,measured,yes,yes,yes,no,1,#16A34A,349,1.3,0.2
+BRK00019,2100000000197,Pellio Berry Granola 350 g,Pellio,BRK,140,210,75,360,12,ambient,measured,yes,yes,yes,no,1,#16A34A,329,0.9,0.2
+BRK00020,2100000000203,Pellio Granola Bars 6-pack,Pellio,BRK,160,120,45,180,12,ambient,measured,yes,yes,yes,no,1,#16A34A,149,2.2,0.2
+BRK00021,2100000000210,Vexa Multigrain Flakes 1 kg,Vexa,BRK,210,285,75,1040,12,ambient,measured,yes,no,yes,no,1,#0D9488,259,2.8,0.2
+BRK00022,2100000000227,Vexa Multigrain Flakes 500 g,Vexa,BRK,180,250,60,520,12,ambient,measured,yes,yes,yes,no,1,#0D9488,149,3.0,0.2
+BRK00023,2100000000234,Vexa Wheat Flakes 475 g,Vexa,BRK,180,250,60,490,12,ambient,measured,yes,yes,yes,no,1,#0D9488,139,2.1,0.2
+BRK00024,2100000000241,Vexa Bran Flakes 400 g,Vexa,BRK,170,240,55,410,12,ambient,measured,yes,yes,yes,no,1,#0D9488,159,1.0,0.2
+BRK00025,2100000000258,Vexa Ragi Flakes 375 g,Vexa,BRK,170,240,55,385,12,ambient,measured,yes,yes,yes,no,1,#0D9488,169,0.8,0.2
+BRK00026,2100000000265,Mavo Choco Puffs 250 g,Mavo,BRK,160,230,50,260,12,ambient,measured,yes,yes,yes,no,1,#2563EB,119,3.4,0.2
+BRK00027,2100000000272,Mavo Fruit Rings 285 g,Mavo,BRK,160,230,50,290,12,ambient,measured,yes,yes,yes,no,1,#2563EB,139,2.0,0.2
+BRK00028,2100000000289,Mavo Honey Stars 250 g,Mavo,BRK,160,230,50,260,12,ambient,measured,yes,yes,yes,no,1,#2563EB,129,1.5,0.2
+BRK00029,2100000000296,Mavo Choco Fills 250 g,Mavo,BRK,150,200,60,260,12,ambient,measured,yes,yes,yes,no,1,#2563EB,149,2.7,0.2
+BRK00030,2100000000302,Lumo Corn Flakes 1 kg,Lumo,BRK,220,285,70,1020,12,ambient,measured,yes,yes,yes,no,1,#64748B,199,2.5,0.28
+BRK00031,2100000000319,Lumo Oats 1 kg,Lumo,BRK,190,280,70,1030,12,ambient,measured,yes,yes,yes,no,1,#64748B,149,2.2,0.28
+BRK00032,2100000000326,Lumo Wheat Flakes 500 g,Lumo,BRK,180,250,60,510,12,ambient,measured,yes,yes,yes,no,1,#64748B,99,1.4,0.28
+BRK00033,2100000000333,Lumo Muesli 500 g,Lumo,BRK,160,240,55,510,12,ambient,measured,yes,yes,yes,no,1,#64748B,199,0.9,0.28
+BRK00034,2100000000340,Lumo Choco Flakes 375 g,Lumo,BRK,180,250,50,390,12,ambient,measured,yes,yes,yes,no,1,#64748B,119,1.1,0.28
